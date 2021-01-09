@@ -1,0 +1,27 @@
+/* Чем мы занимаемся */
+.activity {
+padding-top: 0px;
+padding-bottom: 94px;
+}
+
+
+.project-list li{
+position: relative;
+}
+
+.project-overley{
+position: absolute;
+bottom:0;
+left: 0;
+width: 100%;
+   
+display: block;
+text-align: center;
+
+margin: 0px;
+padding: 27px 0;
+background-color: rgba(47, 48, 58, 0.8);
+text-transform: uppercase;
+color: $white-minor;
+font-weight: 700;
+}
