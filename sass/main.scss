@@ -1,8 +1,9 @@
 @import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/placeholder';
 
 @import './base/conteiner';
 @import './base/common';
-@import './utils/visually-hidden';
 
 @import './components/page-header';
 
@@ -15,3 +16,6 @@
 
 @import './components/modal';
 
+
+@import './components/portfolio-redio-button';
+@import './components/portfolio-project';

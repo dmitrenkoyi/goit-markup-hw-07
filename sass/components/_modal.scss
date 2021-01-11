@@ -37,9 +37,8 @@ transform: translate(-50%, -50%)  scale(0.9);
 }
 
 .cloce{
-display: flex;
-justify-content: center;
-align-items: center;
+@extend %flex-center;
+
 position: absolute;
 
 top: 16px;
@@ -185,7 +184,7 @@ opacity: 1;
 position: absolute;
 width: 16px;
 height: 15px;
-background-image: url(./images/icon/vector.svg);
+background-image: url(/images/icon/vector.svg);
 margin-left: -7px;
 }
 .checkbox-span{

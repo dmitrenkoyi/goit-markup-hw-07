@@ -348,9 +348,7 @@ margin-right: 0;
 }
 
 .client-link{
-display: flex;
-justify-content: center;
-align-items: center;
+
 
 color: var(--icons-color);
 border: 1px solid  var(--icons-color);

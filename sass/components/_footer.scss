@@ -52,9 +52,8 @@ text-transform: uppercase;
 }
 
 .footer-link a{
-display: flex;
-justify-content: center;
-align-items: center;
+@extend %flex-center;
+
 color:  $white-minor; 
 background-color: rgba(255, 255, 255, 0.1);
 
@@ -65,10 +64,9 @@ transition: background-color  250ms $timing-function,
 .item-footer {
 margin-right: 10px;
 margin-bottom: 0px;
-
-&:not(:last-child) {
-margin-right: 10px;
 }
+.item-footer:not(:last-child) {
+margin-right: 10px;
 }
 
 .item-footer svg {
@@ -78,8 +76,9 @@ fill: currentColor;
 .footer-subscription{
 display: block;
 margin-left: 93px;
+}
 
- input{
+.footer-input{
 margin: 0px 12px 0px 0px;
 padding: 15px 16px;
 border: 1px solid rgba(255, 255, 255, 0.3);
@@ -87,15 +86,20 @@ border-radius: 4px;
 width: 358px;
 background-color: transparent;
 color: $white-minor;
+
+&:focus{
+outline: 0;
+border-color: $accent-color-blue;
 }
 }
+
 
 .icon-telegram::after{
 content: "";
 width: 24px;
 height: 24px;
 margin-left: 10px;
-background-image: url(./images/icon/telegram.svg);
+background-image: url(/images/icon/telegram.svg);
 
 display: inline-flex;
 align-items: center;
