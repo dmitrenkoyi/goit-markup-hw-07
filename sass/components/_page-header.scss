@@ -37,6 +37,9 @@ margin-left: 93px;
 .site-nav li {
 margin-left: 50px;
 }
+.site-nav li:first-child {
+  margin-left: 0px;  
+}
 
 .link {
 padding-top: 32px;

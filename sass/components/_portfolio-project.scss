@@ -55,18 +55,18 @@ margin: 0;
 border: 1px solid $border-color;
 border-top: transparent;
 padding: 20px 24px;
+}
 
- h2 {
+.card-content h2 {
 margin-top: 0px;
 margin-bottom: 4px;
-
 color: $main-text-color;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 }
-}
+
 .category {
 font-size: 16px;
 line-height: 1.8;

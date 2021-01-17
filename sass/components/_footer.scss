@@ -13,18 +13,18 @@ margin-bottom: 20px;
 font-size: 14px;
 line-height: 1.7;
 font-style: normal;
-
- p {
+}
+.footer-address > p {
 color: $white-minor;
 margin-top: 0px;
 margin-bottom: 9px;
 }
- a {
-color: rgba(255, 255, 255, 60%);
+
+.footer-address__link {
+color: $footer-link;
 margin-top: 0px;
 margin-bottom: 9px;
 display: block;
-}
 }
 
 .footer .conteiner{
